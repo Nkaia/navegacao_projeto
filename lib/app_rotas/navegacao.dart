@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     controller.jumpToPage(0);
                   },
                   child: Text(
-                    "Home",
+                    "Casa",
                     style: TextStyle(color: Colors.white),
                   )),
               TextButton(
