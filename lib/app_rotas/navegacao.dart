@@ -37,9 +37,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   onPressed: () {
                     controller.jumpToPage(0);
                   },
-                  child: Text(
-                    "Casa",
-                    style: TextStyle(color: Colors.white),
+                  child: Icon(
+                    Icons.home,
+                    color: Colors.white,
                   )),
               TextButton(
                   onPressed: () {
@@ -114,7 +114,7 @@ class SecondScreen extends StatelessWidget {
     return const Scaffold(
       backgroundColor: Colors.yellow,
       body: Center(
-        child: Text('Pagina Busca'),
+        child: Text('Pagina Dois'),
       ),
     );
   }
